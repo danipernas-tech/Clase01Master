@@ -30,4 +30,35 @@ selector{
 }
 */
 
+:root{
+    color: orange;
+}
+
+body{
+    color: orange;
+    background-color: bisque;
+}
+
+:root { --color-primario: #e91000;
+     --color-secundario: rgb(238, 238, 238); 
+     --t-xl: 40px; --t-md: 20px; 
+     --t-sm: 10px; --espacio: 24px; } 
+
+body { display: grid; 
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 
+        200px
+        200px
+        200px;
+    gap: 10px;
+}
+    
+
+img { 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 20px;
+}
+
 /* Comentario */
